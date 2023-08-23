@@ -17,7 +17,7 @@ export default class BlogDocument extends Document {
 					<Main />
 					<NextScript />
 
-					<script async defer src="https://lab.alistair.cloud/latest.js" />
+					{/* <script async defer src="https://lab.alistair.cloud/latest.js" /> */}
 					<noscript>
 						<img
 							src="https://lab.alistair.cloud/noscript.gif"

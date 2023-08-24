@@ -7,7 +7,7 @@ export class ZeroKbBlog extends Post {
 	public name = 'The 0kb Next.js blog';
 	public slug = 'zero-kb-nextjs-blog';
 	public date = new Date('6 Jan 2022');
-	public hidden = false;
+	public hidden = true;
 	public excerpt = 'How I shipped a Next.js app with a 0kb bundle';
 	public keywords = ['nextjs', 'zero', 'bundle', 'nextjs-zero-bundle', 'unstable_runtimeJS'];
 

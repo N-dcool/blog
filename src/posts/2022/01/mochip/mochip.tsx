@@ -12,7 +12,7 @@ export class Mochip extends Post {
 	public slug = 'mochip';
 	public date = new Date('6 Jan 2022');
 	public excerpt = 'The eventful tale of me getting fed up with my homework';
-	public hidden = false;
+	public hidden = true;
 	public keywords = [
 		'school',
 		'homework',
